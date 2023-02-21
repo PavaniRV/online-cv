@@ -7,126 +7,147 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Pavani R V
+    tagline: Senior Lead Engineer - Camera ML/DL 
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: pavanirv11122@gmail.com
+    phone: 9844305716
+    timezone: IST
+    citizenship: India
+    linkedin: https://www.linkedin.com/in/pavani-r-v-6b669837/
 
     languages:
       title: Languages
       info:
         - idiom: English
+          level: Professional
+          
+        - idiom: Hindi
+          level: Professional
+
+        - idiom: Telugu
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: Kannada
+          level: Native
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Singing
           link:
 
-        - item: Snowboarding
+        - item: Playing
           link:
 
-        - item: Cooking
+        - item: Reading books
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+     Senior ML/DL Architect with 5+ years hands-on experience in the field of NLP and computer vision.
+     Experience in leading and mentoring teams and managing deliverables
+     Experience with Interacting various teams for end to end deployment of ML/DL solutions
+     Experience in handling customers with thier new feature requests
+     
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Mtech , Computer Science and Data Processing 
+        university: IIT Kharagpur
+        time: 2015 - 2017
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+            CGPA - 9.95/10
+            Thesis - Query expansion for information retrieval using twitter dataset in a disaster scenario
+          
+      - degree: BE, Electronics and Communication
+        university: PESIT Bangalore
+        time: 2008 - 20012
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            CGPA - 9.39/10
+            Thesis - A proximal sensor based audio narration device to showcase artifacts in museums
+       
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Senior Lead Engineer
+        time: 2021 - Present
+        company: Qualcomm, Bangalore, Camera ML team
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          Design and deploy Always Sensing camera ML/DL features and responsible for end to end deployment 
+            - Always on Face Detection
+                - Design light weight model to deploy on the traget, training to get deteciton performance > 95 % on Always on domain,
+                - 8-bit and 4-bit quantization
+            - Always on Eyes on Display
+                - Design Single stage gaze detection model and deploy on target 
+            - Always on QR code detection 
+            - Fixed point imlementation of required operators for custom hardware for target aware quantization
+      - role: Chief Engineer
+        time: Mar 2021 - Sep 2021
+        company: Samsung Research, Bangalore, Text Intelligence, Advanced Technology Labs (ATL)
+        details: |
+          On-device Knowledge Graph database for Storage and Querying:
+            - Building knowledge graph database on the device using rdf framework for Samsung
+              Runestone’s recommendation platform using eclipse rdf4j as the backend framework
+            - database with all CRUD operations supported with import latencies 2 secs for 100K data and
+              two hop query around 5 ms
+            - Tools and Technologies - Android, Java, SPARQL, RDF, Git
+      - role: Lead Engineer
+        time: Mar 2019 - Feb 2021
+        company: Samsung Research, Bangalore, Text Intelligence, Advanced Technology Labs (ATL)
+        details: |
+          Information extraction to Create Personalized Knowledge graphs:
+            - Information extraction from various on device data sources like messages, notifications,
+                calendar etc., using Bi-LSTM model for the defined set of attributes
+            - Entity lInking and knowledge graph construction using SQL
+            - Accuracy of 80% with on-device model size around 15 MB
+            - Tools and Technologies -Pytorch, LSTM, Android, Java, SQL, Git
+        details: |
+          Verbal Curiosity ( sentence similarity) :
+            - In a social robot home scenario compare the previously uttered sentences by the user with
+                the current spoken sentences to check for any novel, conflicting or entailed information
+            - Server based model deployed on a Social robot with accuracy 80 %
+            - Tools and Technologies - Pytorch, Spacy, Glove, LSTM, Git
       - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+        time: Jun 2018 - Feb 2019
+        company: Samsung Research, Bangalore, Creative Labs Intrapreneurship
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          AnimaTex:
+            - Won the Creative-Lab Intrapreneurship Program after competing with 300+ groups, with a
+              vision to automatically create animated videos for stories as they are being spoken.
+            - Created an on-device, real-time speech-to-animation system using NLP and Unity animation engine;
+              this was demonstrated in Samsung HQ, South Korea
+            - Followed the lean-startup approach to drive the project to near-commercialization levels
+              with a team of 3, within 6 months.
+      - role: Senior Software Engineer
+        time: Jun 2017 - Jun 2018
+        company: Samsung Research, Bangalore, Text Intelligence, Advanced Technology Labs (ATL)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Self Disclosure Classification:
+            - Classifying human robot interactions into various categories of self disclosure
+            - Server based model deployed on a Social robot with accuracy 85 %
+            - Accuracy of 80% with on-device model size around 15 MB
+            - Tools and Technologies - Keras,Python, NLP
+        details: |
+          Intimacy Estimation :
+            - Estimating relation between human and robot in terms of intimacy score using various
+              parameters like eye contact, facial expression,posture etc.,
+              
+       - role: Product Engineer
+        time: Jun 2017 - Jun 2018
+        company: Mercedes Benz R & D Bangalore
+        details: |
+          Online Parameterization tool:
+            - Software tool to effciently parameterize di erent variants of gearbox and engine models
+            - Tools and Technologies -Provetech, Matlab, Simulink, Visual Basic
+        details: |
+          Rest Bus simulation :
+            - Routing the CAN (Controller Area Network) messages to di erent ECU’s in an automobile
+            - Tools and Technologies -Matlab, Simulink
+        
 projects:
     title: Projects
     intro: >
