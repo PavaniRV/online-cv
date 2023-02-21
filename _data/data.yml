@@ -73,7 +73,7 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Senior Lead Engineer
+       -role: Senior Lead Engineer
         time: 2021 - Present
         company: Qualcomm, Bangalore, Camera ML team
         details: |
